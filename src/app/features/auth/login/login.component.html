@@ -1,0 +1,47 @@
+<main class="main min-h-screen flex items-center justify-center">
+  <div class="bg-white flex items-center justify-center w-1/2 rounded-md">
+    <div class="w-1/2 shadow-2xl px-5 py-8">
+      <h3 class="flex justify-center text-2xl font-bold">Authentification</h3>
+      <span class="flex justify-center text-gray-500 mt-2">
+        Merci de remplir les champs ci-dessous
+      </span>
+      <div class="mt-8 px-3">
+        <form>
+          <label class="text-gray-700 ml-1">Adresse email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="exemple@gmail.com"
+            class="bg-gray-100 w-full rounded-md py-3 px-3 focus:ring-red-600 border-red-600 mt-2 mb-8"
+          />
+
+          <label class="text-gray-700 ml-1">Mot de passe</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="***************"
+            class="bg-gray-100 w-full rounded-md py-3 px-3 focus:ring-red-600 focus:border-red-600 mt-2 mb-8"
+          />
+
+          <button
+            class="w-full bg-green-400 flex items-center justify-center text-white px-3 py-2 rounded-md"
+          >
+            Se connecter
+          </button>
+
+          <span class="flex gap-2 justify-center text-gray-500 mt-2">
+            Pas encore de compte ? <a href="#">S'inscrire</a>
+          </span>
+        </form>
+      </div>
+    </div>
+    <div class="w-1/2 flex items-center justify-center">
+      <img
+        src="assets/images/login_image.avif"
+        alt="budget management illustration"
+      />
+    </div>
+  </div>
+</main>
